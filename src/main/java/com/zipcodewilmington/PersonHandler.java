@@ -14,7 +14,6 @@ public class PersonHandler {
 
     // NOTICE how the comments can be used to step-by-step break down the problem into 
     // simple lines of code...
-    StringBuilder builder = new StringBuilder();
     public String whileLoop() {
         String result = "";
         int i = 0;
@@ -58,7 +57,6 @@ public class PersonHandler {
 
     public String forEachLoop() {
         String result = "";
-        int i = 0;
         for( Person person : personArray){
             result += person.toString();
         }
